@@ -20,7 +20,11 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold">Quality Plumbing</span>
+            <img 
+              src="/quality-plumbing-logo.jpg" 
+              alt="Quality Plumbing" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
